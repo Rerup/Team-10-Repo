@@ -35,7 +35,7 @@ namespace TankStation
                 {
                     Console.WriteLine("Ikke forstået, prøv igen");
                 }
-            } while (valg != 1 || valg != 2 || valg != 3);
+            } while (valg != 1 ^ valg != 2 ^ valg != 3);
         }
     }
 }

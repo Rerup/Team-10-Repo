@@ -15,20 +15,15 @@ namespace TankStation
         DateTime Dato;
         
 
-        public Kvittering UdskrivKvittering(DateTime dato)
+        public Kvittering UdskrivKvittering()
         {
-            Pris =;
+            Pris = ;
             Type =;
             Mængde =;
             Dato = DateTime.Now;
             
+            return Adresse + Navn +;
 
-            
-
-
-
-
-            return Dato;
         }
 
     }

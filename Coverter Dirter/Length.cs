@@ -4,36 +4,29 @@ namespace Coverter_Dirter
 {
     public class Length
     {
-        public double Meter = 0.3048;
-        public double Fod = 3.2808;
 
-        public string ConverterMeterFod(double meter, double fod)
+        public string ConverterMeterFod(double meter)
         {
-            Fod = fod;
-            Meter = meter;
+           double Fod = 3.2808399;
+            double Meter = meter;
 
-            Console.WriteLine("Skriv hvor mange meter du vil have konverteret om til fod");
-            meter = int.Parse(Console.ReadLine());
+            double answer = Meter * Fod;
 
-            double answear = meter * fod;
-
-            string message = $"Omregnet giver det sgu {answear}";
+            string message = $"Omregnet giver det sgu {answer}";
             
             return message;
 
         }
 
-        public string ConverterFodMeter(double fod, double meter)
+        public string ConverterFodMeter(double fod)
         {
-            Fod = fod;
-            Meter = meter;
+           double Fod = fod;
+            double Meter = 0.3048;
 
-            Console.WriteLine("Skriv hvor mange fod du vil have konverteret om til meter");
-            fod = int.Parse(Console.ReadLine());
 
-            double answear = fod / meter;
+            double answer = fod / Meter;
 
-            string message = $"Omregnet giver det sgu {answear}";
+            string message = $"Omregnet giver det sgu {answer}";
 
             return message;
 

@@ -23,7 +23,7 @@ namespace TankStation
             Dato = DateTime.Now;
 
             Console.WriteLine($"Her er din kvittering: \n\n" +
-                $"Du har tanket for: {Mængde} liter {Type}\n" +
+                $"Du har tanket {Mængde} liter {Type}\n" +
                 $"Pris: {Pris} kr. \n" +
                 $"{Navn}\n" +
                 $"{Adresse}\n" +

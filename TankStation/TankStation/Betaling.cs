@@ -30,7 +30,7 @@ namespace TankStation
             Console.Clear();
            
 
-            Kort.valgtSaldo =- Saldo;
+            Kort.valgtSaldo =- Math.Round(Saldo,2);
 
         }
     }

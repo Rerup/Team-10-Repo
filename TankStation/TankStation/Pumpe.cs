@@ -13,6 +13,7 @@ namespace TankStation
 
         public void TælFlow ()
         {
+            
             var timer = new Stopwatch();
             Console.WriteLine("Press any key to start tanking");
             Console.ReadKey();
@@ -24,8 +25,10 @@ namespace TankStation
             timer.Stop();
 
             TimeSpan timeTaken = timer.Elapsed;
+            double temMængde = 1.3 * timeTaken.TotalSeconds;
+            Mængde = Math.Round(temMængde, 2);
 
-            Mængde = 1.3*timeTaken.TotalSeconds;
+            
         }
     }
 }

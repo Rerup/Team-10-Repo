@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Coverter Dirter\Coverter Dirter.csproj" />
+    <ProjectReference Include="..\UnitTestProject1\UnitTestProject1.csproj" />
   </ItemGroup>
 
 </Project>

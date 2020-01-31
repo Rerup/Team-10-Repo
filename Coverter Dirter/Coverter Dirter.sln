@@ -6,8 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coverter Dirter", "Coverter Dirter.csproj", "{BD743BB8-D7E1-498A-AF76-E4E920AD8E9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Converter Dirter v1", "..\Converter Dirter v1\Converter Dirter v1.csproj", "{388BD155-9D91-45A8-8219-F3F6F369C85A}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XUnitTestProject1", "..\XUnitTestProject1\XUnitTestProject1.vbproj", "{4953BFA9-810B-4E1F-AA58-AF2E803B66E9}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
